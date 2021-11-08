@@ -440,7 +440,7 @@ list_of_professions = ["Законодатели",
 
 list_of_professions_length = len(list_of_professions)
 
-# Option 1
+# # Option 1
 # random.shuffle(list_of_professions)
 # print(f"Please enter a number from 0 to {list_of_professions_length}.")
 # participant_text_number = input()
@@ -452,8 +452,8 @@ list_of_professions_length = len(list_of_professions)
 # participant_number = int(participant_text_number)
 # print(f"Yor profession will be: {list_of_professions[participant_number]}")
 
-r = 0
 # Option 2
+r = 0
 while True:
     r += 1
     selection = input(f"Press Enter in console to rotate the wheel {r} time/s, or press Q to Quit: ")
@@ -462,3 +462,4 @@ while True:
     if selection is "Q" or selection is "q":
         print(f"Yor profession will be: {list_of_professions[0]}")
         break
+
